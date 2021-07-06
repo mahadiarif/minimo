@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url(../fonts/PlayfairDisplay-Italic.ttf);
+}
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url(../fonts/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url(../fonts/Ubuntu-Light.ttf);
+}
+/* Common CSS Start */
+body{
+	margin:0;
+	padding:0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.t_text{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+.s_text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color:#b4ad9e;
+    text-transform: uppercase;
+}
+.p_text{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262;
+    word-spacing: 2px;
+}
+.container1{
+    width: 90%;
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* Common CSS End */
+/* Header Area Start */
+
+header{
+    padding: 50px 0;
+}
+.menu-area {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 12%;
+}
+.logo img{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.menu {
+    float: right;
+    width: 80%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-bottom: 1px solid transparent;
+    margin: 0 50px;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/* Header Area End */
+/* Banner Area Start  */
+.banner-area{}
+.banner-area img{
+    width: 100%;
+}
+/* Banner Area End  */
+/* Photo Diary Area Start */
+.photo-diary{
+    padding: 70px 0;
+}
+.photo-diary-area{}
+.pt30_pb6{
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+.pb_40{
+    margin-bottom: 40px;
+}
+/* Photo Diary Area End */
+/* Blog Area Start  */
+.blog{
+    padding: 70px 0px 15px;
+}
+.blog-area {
+    overflow: hidden; 
+}
+.single-blog {
+    float: left;
+    width: 47%;
+    margin-right: 6%;
+    margin-bottom: 125px;
+}
+.single-blog:nth-child(even){
+    margin-right: 0;
+}
+.single-blog .blog-img img{
+    width: 100%;
+}
+/* Blog Area End */
+/* Signup Area Start  */
+
+/* Signup Area End */
+.signup{
+    padding: 0 0 70px;
+}
+.news-latter-area {
+    text-align: center;
+}
+.form-signup{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+}
+.news-latter-area input{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 400px;
+    padding: 15px 40px 15px 5px;
+    border: none;
+    color: #626262;
+    border-bottom: 1px solid #626262 ;
+    background-color: transparent;
+    
+}
+.news-latter-area input:focus{
+    outline: 0;
+}
+.mb80{
+    margin-bottom: 80px;
+}
+.news-latter-area button{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    border: none;
+    background-color: transparent;
+}
+.load-more-btn {
+    text-align: center;
+    margin: 0px 0 195px;
+}
+.load-more-btn button{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 18px 37px;
+    color: #626262;
+    border: 1px solid #626262;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* Footer Area Start  */
+.terms-conditon {
+    float: left;
+}
+.social-icon {
+    float: right;
+}
+footer{
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+.footer-area {
+    overflow: hidden;
+}
+.footer-area ul{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+.footer-area ul li{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+.footer-area ul li:last-child{
+    margin-right: 0;
+}
+.footer-area ul li a{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    color: #626262;
+}
+.footer-area ul li a:hover{}
+/* Footer Area End  */
+/* Copywrite Area Start  */
+.copywrite{
+    background-color: #f0f0f0;
+    text-align: center;
+    border-top: 1px solid #b4ad9e;
+}
+.copywrite p{
+    margin: 0;
+    padding: 15px 0;
+    color: #626262;
+}
+.copywrite a{
+    text-decoration: none;
+    color: #626262;
+}
+/* Copywrite Area End */
